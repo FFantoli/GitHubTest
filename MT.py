@@ -12,7 +12,7 @@ generatedFile =st.container()
 
 
 with header:
-	st.title('MT940 Generator')
+	st.title('MT940 Generator v1')
 
 
 with caption:

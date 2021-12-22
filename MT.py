@@ -79,7 +79,7 @@ with generatedFile:
     st.write(":28C:00001/1")
     st.write(":60F:C190501EUR0,00")
     st.write(":61:"+yearV+monthV+dayV+monthB+dayB+option+Betrag+"N051NONREF//2108325339736237")
-    st.write("86:166?GUTSCHRIFT?100004770?20"+kontoinhaber+'?21EREF+'+referenz+'?22SVWZ+'+vwz1+'?23'+vwz2+'?24?30'+bic+'?31'+konto2option+'?32'+kontoinhaber+'?35')
+    st.write(":86:166?GUTSCHRIFT?100004770?20"+kontoinhaber+'?21EREF+'+referenz+'?22SVWZ+'+vwz1+'?23'+vwz2+'?24?30'+bic+'?31'+konto2option+'?32'+kontoinhaber+'?35')
     st.write(':62F:C180716EUR0')
 
 
